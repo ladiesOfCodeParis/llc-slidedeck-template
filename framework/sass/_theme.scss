@@ -520,9 +520,10 @@ e.g.
     line-height: 1.32;
   }
   h1 {
-    background: #111;
+    background: #fff;
     line-height: 1;
     margin: 0;
+    text-align: center;
     font-size: 55px;
   }
   h2 {
@@ -573,6 +574,12 @@ e.g.
   .cursive {
     margin-left: -5px;
   }
+  .logoloc {
+    text-align: center;
+    img {
+      width: 100px;
+    }
+  }
   ul li {
     margin: 0;
     
@@ -584,13 +591,13 @@ e.g.
     height: 0px;
   }
   h1, h2 {
-    color: $white;
+    color: $black;
   }
   h1 {
     margin-bottom: 10px;
   }
   a {
-    color: white;
+    color: $gray-dark;
   }
   footer a {
     color: $llc-pink;
@@ -615,7 +622,7 @@ e.g.
   right: 40px;
   text-align: right;
   font-size: 20px;
-  color: white;
+  color: $gray-dark;
 
   img {
     width: 300px;
